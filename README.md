@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Astro Starter Kit: Basics
 
 ```sh
@@ -50,3 +51,7 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+=======
+# porfolio-astro
+Mi segundo portfolio hecho con astro y tailwind. Puede que apliquemos react de ser necesario
+>>>>>>> 1bb580c3f74eed1d1332cdb815db34aeb4be4557
