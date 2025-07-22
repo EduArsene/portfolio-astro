@@ -1,11 +1,30 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import CalendarGithub from "../components/CalendarGithub.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <div class="relative h-[300px] w-auto">
+    <img
+      src="/public/img/imagenPortada.jpeg"
+      class="w-full h-[600px] object-right"
+      alt="Imagen de portada"
+    />
+  </div>
+  <article class="p-6 bg-white rounded-lg shadow-lg max-w-lg mx-auto">
+    <p class="text-gray-700 text-lg">
+      Hola soy
+      <span class="font-bold text-slate-600 text-xl"
+        >Eduardo Anthonny Mariños Vergaray</span
+      ><br />
+      Tengo
+      <span class="font-bold text-slate-500 text-xl">24 años</span> y soy egresado
+      de la carrera de <span class="font-bold text-slate-500 text-xl"
+        >Ingeniería de Sistemas Computacionales</span
+      >.<br />
+      Me gusta el desarrollo web tanto Backend como Frontend.
+    </p>
+  </article>
+
+  <CalendarGithub />
 </Layout>
