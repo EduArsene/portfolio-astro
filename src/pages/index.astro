@@ -1,30 +1,29 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import CalendarGithub from "../components/CalendarGithub.astro";
+import img from "../../public/img/imagenPortada.jpeg"
 ---
 
 <Layout>
-  <div class="relative h-[300px] w-auto">
-    <img
-      src="/public/img/imagenPortada.jpeg"
-      class="w-full h-[600px] object-right"
-      alt="Imagen de portada"
-    />
-  </div>
-  <article class="p-6 bg-white rounded-lg shadow-lg max-w-lg mx-auto">
-    <p class="text-gray-700 text-lg">
-      Hola soy
-      <span class="font-bold text-slate-600 text-xl"
-        >Eduardo Anthonny Mariños Vergaray</span
-      ><br />
-      Tengo
-      <span class="font-bold text-slate-500 text-xl">24 años</span> y soy egresado
-      de la carrera de <span class="font-bold text-slate-500 text-xl"
-        >Ingeniería de Sistemas Computacionales</span
-      >.<br />
-      Me gusta el desarrollo web tanto Backend como Frontend.
-    </p>
-  </article>
-
+  <section
+    class="min-h-screen flex flex-col items-center justify-center text-white px-4 text-center bg-[url('../../public/img/bg.png')] bg-cover bg-gray-900 bg-center bg-no-repeat relative"
+  >
+      <h1>Eduardo Anthonny Mariños Vergaray</h1>
+      <h2>Ingeniero de Sitemas Computacionales</h2>
+      <p>
+        Recién egresado con 24 años, buscando aplicar mis habilidades en
+        desarrollo y análisis de sistemas para construir productos innovadores y
+        de alto impacto.
+      </p>
+    <div>
+      <a href="">Ver mis proyectos</a>
+      <a href="">Contactame </a>
+      <a href="">Descarga mi CV </a>
+    </div>
+    <div>
+      <a href="">G</a>
+      <a href="">L</a>
+    </div>
+  </section>
   <CalendarGithub />
 </Layout>
